@@ -1907,6 +1907,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 96.52) (xy 102.87 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0289f9a3-8d8e-4b4a-8582-11d452d3ce15")
+	)
+	(wire
+		(pts
 			(xy 156.21 62.23) (xy 156.21 67.31)
 		)
 		(stroke
@@ -1914,16 +1924,6 @@
 			(type default)
 		)
 		(uuid "046a3b25-74aa-4f73-93ff-8057404e1c26")
-	)
-	(wire
-		(pts
-			(xy 109.22 109.22) (xy 102.87 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0872f419-0a6c-4882-abfc-e6372b4e862f")
 	)
 	(wire
 		(pts
@@ -1957,16 +1957,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 106.68) (xy 102.87 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3091c8d6-ec77-4a16-bb0d-a93ba734cd3b")
-	)
-	(wire
-		(pts
 			(xy 102.87 68.58) (xy 109.22 68.58)
 		)
 		(stroke
@@ -1974,16 +1964,6 @@
 			(type default)
 		)
 		(uuid "34117f57-73fe-4776-b70e-6c9d91670668")
-	)
-	(wire
-		(pts
-			(xy 109.22 71.12) (xy 102.87 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "463321de-e0a1-47a0-bfa0-e20cb360fcb6")
 	)
 	(wire
 		(pts
@@ -2077,16 +2057,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 96.52) (xy 102.87 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8c055b-304f-40b1-94a3-60d079f21c21")
-	)
-	(wire
-		(pts
 			(xy 191.77 60.96) (xy 191.77 66.04)
 		)
 		(stroke
@@ -2127,6 +2097,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff81d98-ca05-4d5c-b29d-47d3540219a1")
+	)
+	(wire
+		(pts
 			(xy 156.21 87.63) (xy 156.21 92.71)
 		)
 		(stroke
@@ -2134,6 +2114,16 @@
 			(type default)
 		)
 		(uuid "e2029c9d-ec11-48c4-845e-2bb3f0d86517")
+	)
+	(wire
+		(pts
+			(xy 109.22 109.22) (xy 102.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cb0675-a887-455c-bf9f-9704aa0f05f1")
 	)
 	(wire
 		(pts
@@ -2309,29 +2299,7 @@
 			)
 		)
 	)
-	(global_label "GP18 (Switch)"
-		(shape input)
-		(at 109.22 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd31c86f-9d32-4480-8a8e-ff8b53785e14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.9333 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GP18 (Switch)"
+	(global_label "GP22 (Switch)"
 		(shape output)
 		(at 175.26 115.57 0)
 		(fields_autoplaced yes)
@@ -2341,9 +2309,31 @@
 			)
 			(justify left)
 		)
-		(uuid "e581b964-d6fc-4cf5-913e-503a58e80ea8")
+		(uuid "dcfd58ba-cd70-43a1-b3d2-7aabe1e998e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 191.9733 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP22 (Switch)"
+		(shape input)
+		(at 109.22 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd31c86f-9d32-4480-8a8e-ff8b53785e14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9333 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,17 +2605,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 109.22 90)
+		(lib_id "power:VCC")
+		(at 151.13 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "30f978db-6b9b-4c82-a2aa-73cf0a530afe")
-		(property "Reference" "#PWR05"
-			(at 115.57 109.22 0)
+		(uuid "43f1369f-9e3e-456f-8e7e-b11e4973de35")
+		(property "Reference" "#PWR09"
+			(at 154.94 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,17 +2623,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND (Switch)"
-			(at 113.03 109.2199 90)
+		(property "Value" "VCC"
+			(at 147.32 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 109.22 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 109.22 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,8 +2650,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,12 +2660,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "656e93f8-978b-4659-996b-1076fb02a4f5")
+			(uuid "dabb0720-d890-4b2a-9df2-659ccecc5854")
 		)
 		(instances
 			(project "PonderadaPCB"
 				(path "/3a983584-ae2d-4352-b951-aa1985dfa5c1"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2817,7 +2807,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 96.52 90)
+		(at 109.22 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2826,7 +2816,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fbc1128-f1f7-4adc-b037-4bc5eebe5be9")
 		(property "Reference" "#PWR03"
-			(at 115.57 96.52 0)
+			(at 115.57 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2835,7 +2825,7 @@
 			)
 		)
 		(property "Value" "GND (LED)"
-			(at 113.03 96.5199 90)
+			(at 113.03 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2844,7 +2834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 96.52 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 96.52 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2862,7 +2852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 96.52 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,74 +3295,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6902e28-ae26-4d4a-8399-0e2c57f87e67")
-		(property "Reference" "#PWR06"
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND (Switch)"
-			(at 147.32 113.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66269c30-221a-411a-b9b9-4874770f420b")
-		)
-		(instances
-			(project "PonderadaPCB"
-				(path "/3a983584-ae2d-4352-b951-aa1985dfa5c1"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 109.22 71.12 90)
+		(at 109.22 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3381,7 +3304,7 @@
 		(fields_autoplaced yes)
 		(uuid "fccc2f37-1c64-446d-9c52-7c0ca954ef65")
 		(property "Reference" "#PWR07"
-			(at 115.57 71.12 0)
+			(at 115.57 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3313,7 @@
 			)
 		)
 		(property "Value" "GND (Buzzer)"
-			(at 113.03 71.1199 90)
+			(at 113.03 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 71.12 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 71.12 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 71.12 0)
+			(at 109.22 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)

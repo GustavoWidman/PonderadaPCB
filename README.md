@@ -8,7 +8,7 @@ Esse repositório contém o código fonte da PCB desenvolvida para uma atividade
 
 O projeto foi desenvolvido utilizando o software KiCad. A placa de circuito impresso foi desenvolvida para ser utilizada em conjunto com um Raspberry Pi Pico W. A placa possui um conector para encaixe do Raspberry Pi Pico W, e diversos pequenos circuitos:
 
-- Switch para interface de entrada: O switch é conectado ao pino GP18 do Raspberry Pi Pico W e pode ser utilizado para acionar um evento no software rodando no Raspberry Pi Pico W.
+- Switch para interface de entrada: O switch é conectado ao pino GP22 do Raspberry Pi Pico W e pode ser utilizado para acionar um evento no software rodando no Raspberry Pi Pico W.
 - LED para interface de saída: O LED é conectado ao pino GP17 do Raspberry Pi Pico W e pode ser controlado pelo software rodando no Raspberry Pi Pico W.
 - Transistor conectado a um buzzer: O transistor é conectado ao pino GP16 do Raspberry Pi Pico W e pode ser utilizado para ativar e desativar um buzzer.
 
