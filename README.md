@@ -58,9 +58,9 @@ A pasta `assets` contém imagens do projeto (demonstradas neste arquivo README).
 | Componente          | Footprint                                         | Quantidade |
 | ------------------- | ------------------------------------------------- | ---------- |
 | Raspberry Pi Pico W | RPi_Pico_SMD_TH                                   | 1          |
-| Switch              | SW_DPDT_CK_JS202011JCQN                           | 1          |
+| Switch              | SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm     | 1          |
 | LED                 | LED_D5.0mm                                        | 1          |
 | Transistor          | TO-92_Inline                                      | 1          |
 | Buzzer              | Buzzer_15x7.5RM7.6                                | 1          |
 | Resistor 220 Ohm    | R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal | 1          |
-| Resistor 10k Ohm    | R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_H          | 1          |
+| Resistor 10k Ohm    | R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal | 1          |
