@@ -14,7 +14,8 @@ O projeto foi desenvolvido utilizando o software KiCad. A placa de circuito impr
 
 ## Estrutura do Projeto
 
-```
+```bash
+.
 ├── README.md
 ├── assets
 │   ├── 3D.png
